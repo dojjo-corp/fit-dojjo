@@ -6,6 +6,7 @@ body {
     font-size: 15px;
     line-height: 2rem;
     padding: 0 20px;
+    position: relative;
     text-align: center;
 }
 
@@ -25,6 +26,9 @@ section {
     padding: 0 10%;
 }
 
+.section-title {
+    margin-bottom: 40px;
+}
 .social-icons a {
     color: white;
 }
@@ -51,6 +55,11 @@ nav li {
     margin: 0 2%;
 }
 
+nav li:hover {
+    text-decoration: underline rgb(197, 187, 187);
+    text-decoration-thickness: 7px;
+}
+
 nav a {
     color: rgb(213, 226, 238);
     text-decoration: none;
@@ -64,20 +73,36 @@ nav a:hover {
 
 /* ***********HOME*********** */
 
-#top-quote {
+.top-quote {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4rem;
     line-height: 6rem;
     margin-bottom: 10%;
 }
+figcaption {
+    margin-top:5%;
+}
 div#background-img {
     background-image: url(../images/gym-man-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.8;
     /* width: 100vw; */
 }
 
+#background-img-personal {
+    background-image: url(../images/dumbells-background.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    opacity: 0.7;
+}
+
+#background-img-class {
+    background-image: url(../images/man-gym-dark.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    opacity: 0.7;
+}
 
 /* ***********SERVICES*********** */
 .card{
@@ -113,6 +138,10 @@ footer {
     border-radius: 10px;
 }
 
+.carousel p {
+    font-size: 16px;
+}
+
 /* *************************CLASS SCHEDULE PAGE***************************** */
 #schedules {
     padding: 0 10%;
@@ -130,7 +159,12 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
-
+p.class-description {
+    border: 1px solid rgb(72, 69, 69);
+    border-radius: 10px;
+    font-family: ubuntu;
+    padding: 1% 25%;
+}
 div .trainer-side {
     display: inline-block;
     height: 100%;
@@ -144,6 +178,10 @@ div .schedule-side {
 
 span .sch-period {
     display: block;
+}
+
+#top-text {
+    padding-bottom: 5%;
 }
 
 .trainer-name {
@@ -163,7 +201,8 @@ span .sch-period {
     border-color: rgb(63, 66, 69);
     border-radius: 8%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 2%;
+    padding-top: 5%;
     text-align: left;
     width: 500px;
 }
@@ -171,12 +210,14 @@ span .sch-period {
 #contact-form .btn:hover {
     background-color: rgb(28, 28, 29);
 }
+
 #contact-form label {
     font-size: 1rem;
 }
 
 #contact-form input, textarea {
     border: 1px solid rgb(47, 53, 51);
+    border-radius: 10px;
     color: rgb(228, 232, 235);
     display: block;
     background-color: rgb(53, 59, 64);
@@ -185,4 +226,8 @@ span .sch-period {
 }
 
 
-/* *************************CONTACT US PAGE***************************** */
+/* *************************ABOUT US PAGE***************************** */
+
+.employee-txt {
+    margin-bottom: 10%;
+}
