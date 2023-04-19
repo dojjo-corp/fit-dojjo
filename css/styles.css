@@ -1,0 +1,160 @@
+/* *************************WHOLE SITE***************************** */
+body {
+    background-color: rgb(30, 30, 30);
+    color: rgb(234, 247, 253);
+    font-family: "Montserrat";
+    padding: 0 20px;
+    text-align: center;
+}
+
+hr {
+    background-color: transparent;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: dotted gray 20px;
+    width: 15%;
+    margin: 10% auto;
+    /* border-top: dotted; */
+    /* border-width: 20px; */
+}
+
+section {
+    padding: 0 10%;
+}
+
+/* ***********NAVBAR*********** */
+nav {
+    margin-bottom: 10%;
+}
+
+.nav-head {
+    padding-top: 10px;
+}
+
+nav h1 {
+    font-family: "Ubuntu";
+    text-align: left;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 2%;
+}
+
+nav a {
+    color: rgb(213, 226, 238);
+    text-decoration: none;
+    font-size: 1.5rem
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+/* ***********HOME*********** */
+#top-quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin-bottom: 10%;
+}
+
+
+/* ***********SERVICES*********** */
+.card{
+    background-color: rgb(30, 30, 30) !important;
+    margin-bottom: 10%;
+}
+
+.card-head {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body {
+
+}
+
+
+/* ***********FOOTER*********** */
+footer {
+    margin-top: 10%;
+}
+
+
+/* *************************CLASS SCHEDULE PAGE***************************** */
+#schedules {
+    padding: 0 10%;
+}
+
+#schedules h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#schedules .contain {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div .trainer-side {
+    display: inline-block;
+    height: 100%;
+}
+div .schedule-side {
+    display: inline-block;
+}
+.sch {
+    margin-bottom: 3rem;
+}
+
+span .sch-period {
+    display: block;
+}
+
+.trainer-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* *************************CONTACT US PAGE***************************** */
+#contact-us {
+    padding: 0 10%;
+}
+
+#contact-form {
+    border: 1px solid;
+    border-color: rgb(63, 66, 69);
+    border-radius: 8%;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: left;
+    width: 500px;
+}
+
+#contact-form .btn:hover {
+    background-color: rgb(28, 28, 29);
+}
+#contact-form label {
+    font-size: 1.2rem;
+}
+
+#contact-form input, textarea {
+    border: 1px solid rgb(47, 53, 51);
+    color: rgb(228, 232, 235);
+    display: block;
+    background-color: rgb(53, 59, 64);
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+
+/* *************************CONTACT US PAGE***************************** */
