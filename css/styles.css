@@ -3,6 +3,8 @@ body {
     background-color: rgb(30, 30, 30);
     color: rgb(234, 247, 253);
     font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 2rem;
     padding: 0 20px;
     text-align: center;
 }
@@ -23,6 +25,9 @@ section {
     padding: 0 10%;
 }
 
+.social-icons a {
+    color: white;
+}
 /* ***********NAVBAR*********** */
 nav {
     margin-bottom: 10%;
@@ -49,7 +54,7 @@ nav li {
 nav a {
     color: rgb(213, 226, 238);
     text-decoration: none;
-    font-size: 1.5rem
+    font-size: 1.2rem
 }
 
 nav a:hover {
@@ -58,10 +63,19 @@ nav a:hover {
 
 
 /* ***********HOME*********** */
+
 #top-quote {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4rem;
+    line-height: 6rem;
     margin-bottom: 10%;
+}
+div#background-img {
+    background-image: url(../images/gym-man-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    /* width: 100vw; */
 }
 
 
@@ -72,12 +86,14 @@ nav a:hover {
 }
 
 .card-head {
-    font-size: 1.2rem;
+    color: darkgrey;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
-.card-body {
-
+.card-img img {
+    display: block;
+    width: 50%;
 }
 
 
@@ -85,7 +101,17 @@ nav a:hover {
 footer {
     margin-top: 10%;
 }
+.fa-brands {
+    font-size: 34px;
+    margin-right: 10px;
+}
 
+
+/* *************************PERSONAL TRAINER PAGE***************************** */
+.carousel {
+    background-color: rgb(44, 43, 43);
+    border-radius: 10px;
+}
 
 /* *************************CLASS SCHEDULE PAGE***************************** */
 #schedules {
@@ -93,6 +119,7 @@ footer {
 }
 
 #schedules h2 {
+    color: darkgrey;
     font-size: 5rem;
     font-weight: bold;
 }
@@ -120,6 +147,7 @@ span .sch-period {
 }
 
 .trainer-name {
+    color: darkgrey;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -144,7 +172,7 @@ span .sch-period {
     background-color: rgb(28, 28, 29);
 }
 #contact-form label {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #contact-form input, textarea {
