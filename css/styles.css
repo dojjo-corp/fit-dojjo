@@ -83,7 +83,7 @@ figcaption {
     margin-top:5%;
 }
 div#background-img {
-    background-image: url(../images/gym-man-background.jpg);
+    background-image: url(../images/solid-background/gym-man-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -91,14 +91,14 @@ div#background-img {
 }
 
 #background-img-personal {
-    background-image: url(../images/dumbells-background.jpg);
+    background-image: url(../images/solid-background/dumbells-background.jpg);
     background-size: cover;
     /* background-repeat: no-repeat; */
     opacity: 0.7;
 }
 
 #background-img-class {
-    background-image: url(../images/man-gym-dark.jpg);
+    background-image: url(../images/solid-background/man-gym-dark.jpg);
     background-size: cover;
     /* background-repeat: no-repeat; */
     opacity: 0.7;
@@ -215,7 +215,7 @@ span .sch-period {
     font-size: 1rem;
 }
 
-#contact-form input, textarea {
+input, textarea {
     border: 1px solid rgb(47, 53, 51);
     border-radius: 10px;
     color: rgb(228, 232, 235);
