@@ -184,6 +184,15 @@ span .sch-period {
     padding-bottom: 5%;
 }
 
+.fa-solid {
+    font-size: 34px;
+    opacity: 0.2;
+}
+.tool-tip {
+    display: inline-block;
+    border: 1px solid grey;
+}
+
 .trainer-name {
     color: darkgrey;
     font-size: 2rem;
